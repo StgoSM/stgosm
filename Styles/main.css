@@ -1,48 +1,153 @@
 body{
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bolder;
     margin: 0;
 }
 header{
-    display: inline-block;
-
+    display: flex;
+    height: 70px;
+    align-items: center;
 }
 nav{
     background-color:transparent;
     text-align: center;
-    height: 25px;
     width: 100vw;
 }
 ul{
-    align-self: auto;
-    display: inline-block;
     display: flex;
-    justify-content: space-around;
+    align-self: auto;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
+}
+.logo_netflix{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2000px-Netflix_2015_logo.svg.png');
+    height: 25px;
+    width: 6vw;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    margin-right: 10px;
 }
 li{
     list-style: none;
+    margin-left: 15px;
 }
 .navigation-tab{
-    color: white;
+    color: rgb(231, 231, 231);
+}
+.parrafo_contenedor{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.parrafo_originales{
+    color: rgb(231, 231, 231);
+    padding-left: 55px;
+    font-size: 2.6vh;
+}
+.parrafo_peliculas_emocionantes{
+    color: rgb(231, 231, 231);
+    padding-left: 55px;
+    font-size: 2vh;
 }
 .container-grid{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    margin-bottom: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     /*background-color: #2196F3;*/
-    height: 450px;
-    width: 100vw;
+    /*width: 100vw;*/
 }   
 .container-items{
     border: 1px solid black;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    border: 1px solid black;
 }
-.peli{
-    background-image: url('https://www.fotoefectos.com/admin/efectos_grandes/ejemplos/grandes/grandes3/775.jpg');
-    height: 70vh;
+.peli1{
+    background-image: url('http://image.posta.com.mx/sites/default/files/9._xmen_peliculas_mas_pirateadas_2104.jpg');
+    height: 50vh;
     width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli2{
+    background-image: url('https://http2.mlstatic.com/afiches-poster-peliculas-D_NQ_NP_706621-MLC20822974705_072016-F.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli3{
+    background-image: url('https://ae01.alicdn.com/kf/HTB16OxSIFXXXXbWXVXXq6xXFXXXW/guardianes-de-la-galaxia-pel-culas-Home-Decor-Poster-HD-tama-o-de-impresi-n.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli4{
+    background-image: url('https://www.recreoviral.com/wp-content/uploads/2016/12/harry-potter-part-1.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli5{
+    background-image: url('http://www.estrenoscinema.es/wp-content/uploads/2018/01/black-panther-poster-8.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli6{
+    background-image: url('https://i.pinimg.com/originals/83/0e/d8/830ed81fea0173dd265eaa1bd24c00f8.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli7{
+    background-image: url('http://aecomics.com/imagenes/2013/movie-poster-pacific-rim-big-robot.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli8{
+    background-image: url('https://vignette.wikia.nocookie.net/superman/images/0/08/Batman-v-superman-dawn-of-justice.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli9{
+    background-image: url('https://www.cinemascomics.com/wp-content/uploads/2017/05/Poster-IMAX-de-Piratas-del-caribe-5-la-venganza-de-Salazar.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli10{
+    background-image: url('https://www.cinemascomics.com/wp-content/uploads/2016/09/doctor-strange-1.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli11{
+    background-image: url('https://blogdesuperheroes.es/imagen-noti/bds_Cowboys__Aliens_poster_05.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+.peli12{
+    background-image: url('https://ugc.kn3.net/i/origin/http://www.mubis.es/media/articles/6521/63980/trailer-y-nuevo-poster-de-la-pelicula-divergente-original.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
 }

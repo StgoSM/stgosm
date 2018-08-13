@@ -1,1 +1,1 @@
-# stgosm
+# StgoSm
